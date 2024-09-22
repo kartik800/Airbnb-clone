@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "format:check": "prettier --check \"**/*.{ts,tsx,json}\"",
+    "linting:check": "eslint --max-warnings 0 --config .eslintrc .",
     "lint": "next lint"
   },
   "dependencies": {
